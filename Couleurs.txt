@@ -1,0 +1,7 @@
+#6B81FF bleu-violet
+#44EA7F vert
+#56A9FF bleu
+#c8d6e5 bleu fond formulaire
+#A4BFDD bleu formulaire
+
+http://172.16.43.90/BTS-MCO/index.php

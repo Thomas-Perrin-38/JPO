@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+	
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Thomas PERRIN">
+		<title>Formulaire JPO</title>
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+	
+	<body>
+		<header>
+			<h1>Formulaire JPO BTS MCO</h1> <br/> <br/>
+		</header>
+			<br/><br/>
+		<form class="formulaire" id="IDform" name="form" action="inscrire.php" method="POST">
+			<br/>
+			<input class="champ" type="text" name="nom" placeholder="Nom" id="IDnom" onclick="" /> <br/> <br/>
+			<input class="champ" type="text" name="prenom" placeholder="Prénom" id="IDprenom" onclick="" /> <br/> <br/>
+			<input class="champ" type="text" name="telephone" placeholder="Téléphone" id="IDtel" onclick="" /><br/><br/>
+			<input class="champ" type="text" name="email" placeholder="Email" id="IDemail" onclick="" /><br/> <br/>
+			<label for="IDsexeM" >Homme</label>
+			<input type="radio" id="IDsexeH" name="sexe" value="Homme" />
+			<label for="IDsexeF" >Femme</label>
+			<input type="radio" id="IDsexeF" name="sexe" value="Femme" /><br/> <br/>
+			<input class="champ" type="text" name="adresse" placeholder="Adresse" id="IDadresse" onclick="" /><br/> <br/>
+			<input class="champ" type="text" name="codepostal" placeholder="Code postal" id="IDcodepostal" onclick="" /><br/> <br/>
+			<input class="champ" type="text" name="ville" placeholder="Ville" id="IDvile" onkeyup="" /><br/> <br/>
+			<input class="champdate" type="date" name="datenaissance" id="IDdatenais" onclick="" /><br/> <br/>
+			<input class="champ" type="text" name="section" placeholder="Section actuelle" id="IDsecactu" onclick="" /><br/> <br/>
+			<input class="champ" type="text" name="etablissement" placeholder="Etablissement actuel" id="IDetablissement" onclick="" /> <br/> <br/>
+			<input class="btn" type="submit" value="Envoyer" id="IDenvoyer" name="envoyer" onclick="envoyer ()" readonly /><br/> <br/>
+		</form>
+		
+		<script>
+		</script>
+		
+		
+		
+	</body>
+	
+	
+</html>

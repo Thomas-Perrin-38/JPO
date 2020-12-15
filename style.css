@@ -1,0 +1,103 @@
+body{
+	text-align:center;
+	font-family:calibri;
+	background-color: #c8d6e5;
+
+}
+header{
+	background-position: center;
+	background-image: url(images/lab.jpg);
+	background-repeat:no-repeat;
+}
+
+h1{
+	color :white;
+	padding-top: 50px;
+}
+.formulaire{
+	width: 350px;
+	padding: 25px;
+	padding-top: 5px;
+	background-color: #A4BFDD;
+	position:absolute;
+	top:75%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	border-radius: 25px;
+
+}
+.img1{
+	: left;
+}
+.btn:hover{
+	background-position: right;
+	width:180px;
+	height:29px;
+	box-shadow: 0 0 5px #A3B0FF,0 0 20px #A3B0FF,0 0 40px #A3B0FF;
+}
+.btn{
+
+	font-family: arial black;
+	border:none;
+	margin:20px;
+	width:150px;
+	height:25px;
+	background-size:200%;
+	background-image: linear-gradient(to left, #44EA7F,#56A9FF,#44EA7F);
+	transition:0.5s;
+	text-align:center;
+}
+
+input[type="text"]{
+	border-radius:20px;
+	text-align:center;
+	width:200px;
+	height:25px;
+}
+input[type="submit"]{
+	border-radius:20px;
+	text-align:center;
+	width:200px;
+	height:25px;
+}
+input[type="date"]{
+	border-radius:20px;
+	text-align:center;
+	width:200px;
+	height:25px;
+}
+.champ{
+	background-color:none;
+	border:2px solid #A4BFDD;
+	height: 35px;
+}
+.champcom{
+	border:none;
+	background-color:#A4BFDD;
+	width:265px;
+}
+.champdate{
+	background-color:none;
+	border: none;
+	height: 35px;
+}
+.champ:focus{
+	width:245px;
+	height:30px;
+	margin: 2px auto;
+	border: solid 3px #BC1414;
+	background-color:#B3FBFF;
+	transition: 0.5s;
+	outline: none;
+}
+.champ1:focus{
+	background-color:none;
+	height: 35px;
+	border: solid 3px #BC1414;
+	background-color:#B3FBFF;
+}
+
+.p1{
+	font-size: 28px;
+
+}

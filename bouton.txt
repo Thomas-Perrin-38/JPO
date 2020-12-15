@@ -1,0 +1,10 @@
+.btn{
+	font-family: arial black;
+	border:none;
+	margin:20px;
+	width:150px;
+	height:25px;
+	background-size:200%;
+	background-image: linear-gradient(to left, #FF5A5A,#56A9FF,#FF5A5A);
+	transition:0.5s;
+}
